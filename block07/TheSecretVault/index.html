@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>The Secret Vault</title>
+    <style>
+        p {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        #demo {
+            font-size: 100px;
+            font-weight: bold;
+            border: 2px solid black;
+            text-align: center;
+            padding: 10px 5px;
+            margin: auto;
+            width: 470px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>You have received this message because you have been chosen to open an important vault. Here is the secret
+            combination:</p>
+        <p id="demo"></p>
+    </div>
+    <script>
+      
+        //Create two variables to get the first vault code
+        
+        let a = 40;     //Declare a, give it the value of 40
+        let b = 4;      //Declare b, give it the value of 4
+
+        let x = a / b;  //Divide a by b
+
+        //Create two variables to get the second vault code
+       
+        let p = 20;    //Declare p, give it the value of 20
+        let q = 20;    //Declare q, give it the value of 20
+      
+        let y = p + q;    //Add p with q
+
+        //Create two variables to get the third vault code
+        let m = 40;     //Declare m, give it the value of 40
+        let n = 1;      //Declare n, give it the value of 1
+
+        let z = m - n;  //Subtract m with n
+
+        //Write the combination of 3 codes x,y,z to get vault code
+        document.getElementById("demo").innerHTML = x + "-" + y + "-" + z;
+
+
+
+
+    </script>
+
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
