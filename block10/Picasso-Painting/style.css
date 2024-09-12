@@ -1,0 +1,216 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#gallery {
+    /* display: flex;
+    flex-direction: row;
+    padding: 10px;
+  margin: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+    justify-content: center;
+}
+
+.picture img {
+    /* background-color: #03989e;
+    max-width: 100%;
+    height: 200px;
+    align-items: center;
+    margin: 0 8px; */
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 23vw;
+}
+
+h1,
+h2 {
+    text-align: center;
+
+}
+
+.form {
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 23vw;
+    padding: 5px 7px;
+    text-align: left;
+}
+
+/* .form div{
+    margin: 22px 35px;
+
+} */
+#picture1 img {
+
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 72vw;
+    /*! border-radius: 54px; */
+}
+
+#picture1 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.button {
+    text-align: center;
+}
+
+.button input {
+    text-align: center;
+    background: #0c618e;
+    color: white;
+    font-family: Calibri;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+
+
+#survey-form {
+    padding: 2.3rem 0.5rem;
+    border-radius: 5.3rem;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 36vw;
+}
+
+.form-input {
+    margin: 0 2.5rem 1.2rem 2rem;
+}
+
+.form-input-size {
+    display: block;
+    width: 100%;
+    height: 1.5rem;
+    padding: 0.3rem 0.4rem;
+    border-radius: 0.2rem;
+    outline: 0;
+    border-style: none;
+    margin-top: 0.4rem;
+}
+
+
+
+
+@media screen and (max-width:320px) {
+    #picture1 img {
+        max-width: 80vw;
+        height: 225px;
+      }
+      .form-input {
+    margin: 0 -33px 0px;
+  }
+
+    #survey-form {
+        padding: 0;
+        top: 63vw;
+        border-radius: 2rem;
+    }
+
+    .form {
+        text-align: left;
+        font-size: 11px;
+    }
+    .form-input {
+        margin: 0 -33px 0px;
+      }
+
+h2 {
+    font-size: 11px;
+}
+
+.button input {
+    font-size: 14px;
+}
+.form {
+  
+    border: none;
+    box-shadow: none;
+  }
+}
+@media screen and (max-width:480px) {
+    #picture1 img {
+        max-width: 80vw;
+    }
+
+    #survey-form {
+        padding: 0.3rem 4.5rem;
+        top: 39vw;
+        border-radius: 2rem;
+    }
+
+    .form {
+        text-align: left;
+        font-size: 11px;
+    }
+
+
+    .form-input {
+        margin: 0 -12px 0rem;
+    }
+
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .button input {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:768px) {
+
+    .form-input {
+        margin: 0 1.5rem 0.2rem 1rem;
+    }
+}
+@media screen and (max-width:1024px) {
+    #picture1 img {
+        max-width: 80vw;
+    }
+
+    #survey-form {
+        padding: 0.3rem 4.5rem;
+        top: 42vw;
+        border-radius: 2rem;
+    }
+
+    .form {
+        text-align: left;
+        font-size: 11px;
+    }
+
+
+    .form-input {
+        margin: 0 -12px 0rem;
+    }
+
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .button input {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    #survey-form {
+
+        top: 32vw;
+    }
+}
